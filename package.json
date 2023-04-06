@@ -7,10 +7,7 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest",
-    "postbuild": "npm run copyto:android && npm run copyto:ios",
-    "copyto:android": "rm -rf ../android/app/src/main/assets/webapp && cp -R build/ ../android/app/src/main/assets/webapp",
-    "copyto:ios": "rm -rf '../ios/portal test app/webapp' && cp -R build/ .'./ios/portal test app/webapp'"
+    "test": "jest"
   },
   "dependencies": {
     "@ionic/portals-react-native": "^0.3.0",

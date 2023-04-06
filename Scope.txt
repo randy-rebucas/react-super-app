@@ -1,0 +1,7 @@
+Pipeline 
+    Core -> This is the main portal 
+        Feature App 
+            -> Authentication App
+            -> Truck App
+            -> Shoping Cart App 
+            
