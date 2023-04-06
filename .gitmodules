@@ -1,3 +1,6 @@
 [submodule "corporate"]
 	path = corporate
 	url = git@github.com:PorterPipe/corporate.git
+[submodule "pipeline-cms"]
+	path = pipeline-cms
+	url = git@github.com:randy-rebucas/pipeline-cms.git
